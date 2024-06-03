@@ -1,0 +1,22 @@
+INFO     test123:base_case.py:18 =======登录功能测试开始======
+INFO     test123:test_login.py:14 ***登录成功-管理员用例开始测试***
+DEBUG    test123:base_page.py:88 在登录页面,输入用户名操作的时候，等待('id', 'basic_loginName')元素可见【成功】
+DEBUG    test123:base_page.py:173 在登录页面,输入用户名操作的时候，对('id', 'basic_loginName')元素输入test_admin【成功】
+DEBUG    test123:base_page.py:88 在登录页面,输入密码操作的时候，等待('id', 'basic_password')元素可见【成功】
+DEBUG    test123:base_page.py:173 在登录页面,输入密码操作的时候，对('id', 'basic_password')元素输入admin123【成功】
+DEBUG    test123:base_page.py:88 在登录页面,点击登录按钮操作的时候，等待('class name', 'login-btn')元素可见【成功】
+DEBUG    test123:base_page.py:208 在登录页面,点击登录按钮操作的时候，点击元素('class name', 'login-btn')【成功】
+DEBUG    test123:base_page.py:88 在登录页面,是否强制登录操作的时候，等待('xpath', "//span[contains(.,'确 定')]")元素可见【成功】
+DEBUG    test123:base_page.py:208 在登录页面,是否强制登录操作的时候，点击元素('xpath', "//span[contains(.,'确 定')]")【成功】
+DEBUG    test123:base_page.py:88 在登录页面,关闭菜单指引按钮操作的时候，等待('xpath', '/html/body/div[3]/button')元素可见【成功】
+DEBUG    test123:base_page.py:208 在登录页面,关闭菜单指引按钮操作的时候，点击元素('xpath', '/html/body/div[3]/button')【成功】
+DEBUG    test123:base_page.py:88 在首页,查看主页的生产订单管理操作的时候，等待('class name', 'ant-menu-title-content')元素可见【成功】
+DEBUG    test123:base_page.py:257 在首页,查看主页的生产订单管理操作的时候，获取('class name', 'ant-menu-title-content')元素的文本【成功】
+DEBUG    test123:base_page.py:88 在首页,查看主页的生产订单管理操作的时候，等待('class name', 'ant-menu-title-content')元素可见【成功】
+DEBUG    test123:base_page.py:257 在首页,查看主页的生产订单管理操作的时候，获取('class name', 'ant-menu-title-content')元素的文本【成功】
+INFO     test123:test_login.py:30 ***登录成功-管理员用例通过测试***
+DEBUG    test123:base_page.py:88 在首页,在用户名上点击操作的时候，等待('class name', 'ant-dropdown-trigger')元素可见【成功】
+DEBUG    test123:base_page.py:208 在首页,在用户名上点击操作的时候，点击元素('class name', 'ant-dropdown-trigger')【成功】
+DEBUG    test123:base_page.py:88 在首页,点击退出按钮操作的时候，等待('class name', 'ant-dropdown-menu-title-content')元素可见【成功】
+DEBUG    test123:base_page.py:208 在首页,点击退出按钮操作的时候，点击元素('class name', 'ant-dropdown-menu-title-content')【成功】
+INFO     test123:test_login.py:32 ***登录成功-管理员用例结束测试***

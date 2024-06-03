@@ -1,0 +1,15 @@
+INFO     test123:test_login.py:36 ***密码为空用例开始测试***
+DEBUG    test123:base_page.py:88 在登录页面,输入用户名操作的时候，等待('id', 'basic_loginName')元素可见【成功】
+DEBUG    test123:base_page.py:173 在登录页面,输入用户名操作的时候，对('id', 'basic_loginName')元素输入test_system_admin【成功】
+DEBUG    test123:base_page.py:88 在登录页面,输入密码操作的时候，等待('id', 'basic_password')元素可见【成功】
+DEBUG    test123:base_page.py:173 在登录页面,输入密码操作的时候，对('id', 'basic_password')元素输入【成功】
+DEBUG    test123:base_page.py:88 在登录页面,点击登录按钮操作的时候，等待('class name', 'login-btn')元素可见【成功】
+DEBUG    test123:base_page.py:208 在登录页面,点击登录按钮操作的时候，点击元素('class name', 'login-btn')【成功】
+DEBUG    test123:base_page.py:88 在登录页面,检查密码为空提示操作的时候，等待('css selector', '.ant-form-item-explain-error')元素可见【成功】
+DEBUG    test123:base_page.py:257 在登录页面,检查密码为空提示操作的时候，获取('css selector', '.ant-form-item-explain-error')元素的文本【成功】
+INFO     test123:test_login.py:50 ***密码为空用例通过测试***
+INFO     test123:test_login.py:53 ***密码为空用例结束测试***
+WARNING  urllib3.connectionpool:connectionpool.py:823 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04079520>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/602d4feecc07909dea9e6bc273cebcce
+WARNING  urllib3.connectionpool:connectionpool.py:823 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04079658>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/602d4feecc07909dea9e6bc273cebcce
+WARNING  urllib3.connectionpool:connectionpool.py:823 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04079700>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/602d4feecc07909dea9e6bc273cebcce
+INFO     test123:base_case.py:22 =======登录功能测试结束======

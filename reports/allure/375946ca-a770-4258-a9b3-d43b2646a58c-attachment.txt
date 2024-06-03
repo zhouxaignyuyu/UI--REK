@@ -1,0 +1,11 @@
+INFO     test123:test_login.py:36 ***用户名为空用例开始测试***
+DEBUG    test123:base_page.py:88 在登录页面,输入用户名操作的时候，等待('id', 'basic_loginName')元素可见【成功】
+DEBUG    test123:base_page.py:173 在登录页面,输入用户名操作的时候，对('id', 'basic_loginName')元素输入【成功】
+DEBUG    test123:base_page.py:88 在登录页面,输入密码操作的时候，等待('id', 'basic_password')元素可见【成功】
+DEBUG    test123:base_page.py:173 在登录页面,输入密码操作的时候，对('id', 'basic_password')元素输入admin123【成功】
+DEBUG    test123:base_page.py:88 在登录页面,点击登录按钮操作的时候，等待('class name', 'login-btn')元素可见【成功】
+DEBUG    test123:base_page.py:208 在登录页面,点击登录按钮操作的时候，点击元素('class name', 'login-btn')【成功】
+DEBUG    test123:base_page.py:88 在登录页面,检查用户名为空提示操作的时候，等待('class name', 'ant-form-item-explain-error')元素可见【成功】
+DEBUG    test123:base_page.py:257 在登录页面,检查用户名为空提示操作的时候，获取('class name', 'ant-form-item-explain-error')元素的文本【成功】
+INFO     test123:test_login.py:50 ***用户名为空用例通过测试***
+INFO     test123:test_login.py:53 ***用户名为空用例结束测试***
